@@ -62,14 +62,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'mukono-0sd7q8',
+                    layer: 'mukono-c15pt2',
                     opacity: 0.9,
                     duration: 1000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'mukono-0sd7q8',
+                    layer: 'mukono-c15pt2',
                     opacity: 0.6
                 }
             ]
@@ -107,14 +107,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'kayunga-4ffse1',
+                    layer: 'kayunga-5ij51z',
                     opacity: 0.9,
                     duration: 1000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'kayunga-4ffse1',
+                    layer: 'kayunga-5ij51z',
                     opacity: 0.6,
                 }
             ]
@@ -147,8 +147,19 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'bugiri-2ciovm',
+                    opacity: 0.9,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'bugiri-2ciovm',
+                    opacity: 0.6,
+                }
+            ]
         },
         {
             id: 'bugweri',
@@ -178,8 +189,19 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'bugweri-4rkjlg',
+                    opacity: 0.9,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'bugweri-4rkjlg',
+                    opacity: 0.6,
+                }
+            ]
         },
         {
             id: 'iganga',
@@ -209,8 +231,19 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'iganga-8x626n',
+                    opacity: 0.9,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'iganga-8x626n',
+                    opacity: 0.6,
+                }
+            ]
         },
         {
             id: 'kaliro',
@@ -240,8 +273,19 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'kaliro-cjjspj',
+                    opacity: 0.9,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'kaliro-cjjspj',
+                    opacity: 0.6,
+                }
+            ]
         },
         {
             id: 'luuka',
@@ -271,8 +315,19 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'luuka-6qdx8t',
+                    opacity: 0.9,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'luuka-6qdx8t',
+                    opacity: 0.6,
+                }
+            ]
         },
         {
             id: 'mayuge',
@@ -294,7 +349,7 @@ var config = {
                 community: 1800
             },
             location: {
-                center: [33.48642, -0.24818],
+                center: [33.4804, 0.4563],
                 zoom: 8.73,
                 pitch: 38.00,
                 bearing: 0.00
@@ -302,8 +357,19 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'mayuge-1nczfp',
+                    opacity: 0.9,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'mayuge-1nczfp',
+                    opacity: 0.6,
+                }
+            ]
         }
     ]
 };

@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Uganda',
             image: '',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: '',
             location: {
                 center: [32.68233, 1.08554],
                 zoom: 6.90,
@@ -35,7 +35,7 @@ var config = {
             hidden: false,
             title: 'Mukono',
             image: '',
-            description: 'Elevate has worked in Mukono district since 2016. Since then, we have been conducting an internal evaluation to measure the impact of our Community Engagement program.',
+            description: '',
             vt: {
                 schools: 132,
                 pupils: 59107,
@@ -79,8 +79,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Kayunga',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 schools: 11,
                 pupils: 5500,
@@ -124,8 +124,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Bugiri',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 
             },
@@ -166,8 +166,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Bugweri',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 
             },
@@ -208,8 +208,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Iganga',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 
             },
@@ -250,8 +250,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Kaliro',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 
             },
@@ -292,8 +292,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Luuka',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 
             },
@@ -334,8 +334,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Mayuge',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            image: '',
+            description: '',
             vt: {
                 
             },

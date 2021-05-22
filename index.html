@@ -187,21 +187,13 @@ config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
     var chapter = document.createElement('div');
 
+    /// Project headers ///
     var vt_header = document.createElement('h4');
     vt_header.innerText = "Village TEACH"
     var tt_header = document.createElement('h4');
     tt_header.innerText = "TIET Partnership"
     var pd_header = document.createElement('h4');
     pd_header.innerText = "Positive Deviance"
-
-    var schools_header = document.createElement('h6');
-    schools_header.innerText = "Schools impacted"
-    var pupils_header = document.createElement('h6');
-    pupils_header.innerText = "Pupils reached"
-    var teachers_header = document.createElement('h6');
-    teachers_header.innerText = "Teachers trained"
-    var community_header = document.createElement('h6');
-    community_header.innerText = "Parents/Community involved*"
 
 
     if (record.title) {
@@ -223,7 +215,18 @@ config.chapters.forEach((record, idx) => {
     }
 
     // VT section //
-    if (record.vt) {
+    if (record.vt && record.vt.schools) {
+    
+    /// Impact level headers ////
+    var schools_header_vt = document.createElement('h6');
+    schools_header_vt.innerText = "Schools impacted"
+    var pupils_header_vt = document.createElement('h6');
+    pupils_header_vt.innerText = "Pupils reached"
+    var teachers_header_vt = document.createElement('h6');
+    teachers_header_vt.innerText = "Teachers trained"
+    var community_header_vt = document.createElement('h6');
+    community_header_vt.innerText = "Parents/Community involved*"
+    
     chapter.appendChild(vt_header); 
     var row = document.createElement('div');
     row.classList.add("row");
@@ -248,21 +251,127 @@ config.chapters.forEach((record, idx) => {
     var teachers = document.createElement('h2');
     var community = document.createElement('h2');
 
-    column1.appendChild(schools_header);
-    schools.innerHTML = record.vt.schools;
+    column1.appendChild(schools_header_vt);
+    schools.innerHTML = record.vt.schools.toLocaleString();
     column1.appendChild(schools)
-    column2.appendChild(pupils_header);
-    pupils.innerHTML = record.vt.pupils;
+    column2.appendChild(pupils_header_vt);
+    pupils.innerHTML = record.vt.pupils.toLocaleString();
     column2.appendChild(pupils)
-    column3.appendChild(teachers_header);
-    teachers.innerHTML = record.vt.teachers;
+    column3.appendChild(teachers_header_vt);
+    teachers.innerHTML = record.vt.teachers.toLocaleString();
     column3.appendChild(teachers)
-    column4.appendChild(community_header);
-    community.innerHTML = record.vt.community;
+    column4.appendChild(community_header_vt);
+    community.innerHTML = record.vt.community.toLocaleString();
     column4.appendChild(community)
 
     }
     /// End VT area ///
+
+    // TT section //
+    if (record.tt && record.tt.schools) {
+
+    /// Impact level headers ////
+    var schools_header_tt = document.createElement('h6');
+    schools_header_tt.innerText = "Schools impacted"
+    var pupils_header_tt = document.createElement('h6');
+    pupils_header_tt.innerText = "Pupils reached"
+    var teachers_header_tt = document.createElement('h6');
+    teachers_header_tt.innerText = "Teachers trained"
+    var community_header_tt = document.createElement('h6');
+    community_header_tt.innerText = "Parents/Community involved*"
+
+    chapter.appendChild(tt_header); 
+    var row = document.createElement('div');
+    row.classList.add("row");
+
+    var column1 = document.createElement('div');
+    column1.classList.add("col-md-6");
+    var column2 = document.createElement('div');
+    column2.classList.add("col-md-6");
+    var column3 = document.createElement('div');
+    column3.classList.add("col-md-6");
+    var column4 = document.createElement('div');
+    column4.classList.add("col-md-6");
+    
+    chapter.appendChild(row);
+    row.appendChild(column1);
+    row.appendChild(column2);
+    row.appendChild(column3);
+    row.appendChild(column4);
+
+    var schools = document.createElement('h2');
+    var pupils = document.createElement('h2');
+    var teachers = document.createElement('h2');
+    var community = document.createElement('h2');
+
+    column1.appendChild(schools_header_tt);
+    schools.innerHTML = record.tt.schools.toLocaleString();
+    column1.appendChild(schools)
+    column2.appendChild(pupils_header_tt);
+    pupils.innerHTML = record.tt.pupils.toLocaleString();
+    column2.appendChild(pupils)
+    column3.appendChild(teachers_header_tt);
+    teachers.innerHTML = record.tt.teachers.toLocaleString();
+    column3.appendChild(teachers)
+    column4.appendChild(community_header_tt);
+    community.innerHTML = record.tt.community.toLocaleString();
+    column4.appendChild(community)
+
+    }
+    /// End TT area ///
+
+    // PD section //
+    if (record.pd && record.pd.schools) {
+
+    /// Impact level headers ////
+    var schools_header_pd = document.createElement('h6');
+    schools_header_pd.innerText = "Schools impacted"
+    var pupils_header_pd = document.createElement('h6');
+    pupils_header_pd.innerText = "Pupils reached"
+    var teachers_header_pd = document.createElement('h6');
+    teachers_header_pd.innerText = "Teachers trained"
+    var community_header_pd = document.createElement('h6');
+    community_header_pd.innerText = "Parents/Community involved*"
+
+    chapter.appendChild(pd_header); 
+    var row = document.createElement('div');
+    row.classList.add("row");
+
+    var column1 = document.createElement('div');
+    column1.classList.add("col-md-6");
+    var column2 = document.createElement('div');
+    column2.classList.add("col-md-6");
+    var column3 = document.createElement('div');
+    column3.classList.add("col-md-6");
+    var column4 = document.createElement('div');
+    column4.classList.add("col-md-6");
+    
+    chapter.appendChild(row);
+    row.appendChild(column1);
+    row.appendChild(column2);
+    row.appendChild(column3);
+    row.appendChild(column4);
+
+    var schools = document.createElement('h2');
+    var pupils = document.createElement('h2');
+    var teachers = document.createElement('h2');
+    var community = document.createElement('h2');
+
+    column1.appendChild(schools_header_pd);
+    schools.innerHTML = record.pd.schools.toLocaleString();
+    column1.appendChild(schools)
+    column2.appendChild(pupils_header_pd);
+    pupils.innerHTML = record.pd.pupils.toLocaleString();
+    column2.appendChild(pupils)
+    column3.appendChild(teachers_header_pd);
+    teachers.innerHTML = record.pd.teachers.toLocaleString();
+    column3.appendChild(teachers)
+    column4.appendChild(community_header_pd);
+    community.innerHTML = record.pd.community.toLocaleString();
+    column4.appendChild(community)
+
+    }
+    /// End PD area ///
 
 
     container.setAttribute('id', record.id);

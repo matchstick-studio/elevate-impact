@@ -17,6 +17,24 @@ var config = {
             title: 'Uganda',
             image: '',
             description: '',
+            vt: {
+                schools: 156,
+                pupils: 73535,
+                teachers: 1256,
+                community: 8580
+            },
+            tt: {
+                schools: 995,
+                pupils: 19005,
+                teachers: 10421,
+                community: 59700
+            },
+            pd: {
+                schools: 30,
+                pupils: 304827,
+                teachers: 2505,
+                community: 1800
+            },
             location: {
                 center: [32.68233, 1.08554],
                 zoom: 6.90,
@@ -63,7 +81,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'mukono-c15pt2',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -108,7 +126,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'kayunga-5ij51z',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -150,7 +168,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'bugiri-2ciovm',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -192,7 +210,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'bugweri-4rkjlg',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -234,7 +252,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'iganga-8x626n',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -276,7 +294,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'kaliro-cjjspj',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -318,7 +336,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'luuka-6qdx8t',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
@@ -360,7 +378,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'mayuge-1nczfp',
-                    opacity: 0.9,
+                    opacity: 1,
                     duration: 1000
                 }
             ],
